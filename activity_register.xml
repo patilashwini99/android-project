@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@color/windowBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView android:text="Create Account" android:layout_width="match_parent" android:textSize="22sp" android:textStyle="bold" android:layout_marginBottom="12dp" android:layout_height="wrap_content"/>
+
+    <EditText android:id="@+id/etUser" android:hint="Choose username" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+    <EditText android:id="@+id/etPass" android:hint="Choose password" android:inputType="textPassword" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp"/>
+
+    <Button android:id="@+id/btnRegister" android:text="Create Account" android:layout_width="match_parent" android:layout_height="wrap_content" android:backgroundTint="#FFC107" android:textColor="#000000"/>
+</LinearLayout>
